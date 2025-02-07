@@ -1,4 +1,4 @@
-# Regularization of Optimal Control Problems on Stratified Domains Using Additional Controls
+# Regularization of optimal control problems on stratified domains using additional controls
 
 * [Academic Example](Example.jl): We provide an academic example illustrating numerically the convergence of approximated optimal solutions (to the penalized problem) to an optimal solution of the academic example.
 
