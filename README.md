@@ -49,3 +49,13 @@ $$
     f_4(x,u) = g_1(x,u), & x \in X_4.
 \end{cases}
 $$
+The problem of interest:
+\begin{equation}\tag{$\mathrm{P}_{\mathrm{ex}}$}\label{Pex}
+    \begin{aligned}
+        \text{minimize} & \quad \int_0^T x_2^2(t) \, \mathrm{d}t,\\
+        \text{subject to} & \quad (x(\cdot), u(\cdot)) \in \mathrm{AC}_{[0, \frac{7}{2}]} \times \mathcal{U}_{[0, \frac{7}{2}]}, \\
+        & \quad \dot{x}(t) = f(x(t), u(t)), \quad \text{a.e. } t \in [0, T], \\
+        & \quad x(0) = (1,1).
+    \end{aligned}
+\end{equation}
+where $T=\frac{7}{2}$ and $\mathcal{U}_{[0, \frac{7}{2}]}$ denotes the set of time-measurable functions from $[0, \frac{7}{2}]$ to $[-1,1]$. 
