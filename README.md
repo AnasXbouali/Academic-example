@@ -49,7 +49,6 @@ $$
     f_4(x,u) = g_1(x,u), & x \in X_4.
 \end{cases}
 $$
-
 The problem of interest:
 
 $$
